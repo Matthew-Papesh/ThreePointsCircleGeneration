@@ -13,6 +13,7 @@ def main():
     B = -(- pow(x_0, 2.0)*x_1 + pow(x_0, 2.0)*x_2 + x_0*pow(x_1, 2.0) - x_0*pow(x_2, 2.0) + x_0*pow(y_1, 2.0) - x_0*pow(y_2, 2.0) - pow(x_1, 2.0)*x_2 + x_1*pow(x_2, 2.0) - x_1*pow(y_0, 2.0) + x_1*pow(y_2, 2.0) + x_2*pow(y_0, 2.0) - x_2*pow(y_1, 2.0))/(2*(x_0*y_1 - x_1*y_0 - x_0*y_2 + x_2*y_0 + x_1*y_2 - x_2*y_1))
     C = (- pow(x_0, 2.0)*x_1*y_2 + pow(x_0, 2.0)*x_2*y_1 + x_0*pow(x_1, 2.0)*y_2 - x_0*pow(x_2, 2.0)*y_1 + x_0*pow(y_1, 2.0)*y_2 - x_0*y_1*pow(y_2, 2.0) - pow(x_1, 2.0)*x_2*y_0 + x_1*pow(x_2, 2.0)*y_0 - x_1*pow(y_0, 2.0)*y_2 + x_1*y_0*pow(y_2, 2.0) + x_2*pow(y_0, 2.0)*y_1 - x_2*y_0*pow(y_1, 2.0))/(x_0*y_1 - x_1*y_0 - x_0*y_2 + x_2*y_0 + x_1*y_2 - x_2*y_1)
     
+    # computed circle properties
     x_ICC = -A
     y_ICC = -B
     R = pow(pow(A, 2.0) + pow(B, 2.0) - C, 0.5)
